@@ -650,7 +650,7 @@ nav{
             text-align: start;
             align-items: start; 
         margin: unset;
-        margin-top: -10em;}
+        margin-top: 0em;}
     #card3 { grid-area: 1 / 2 / 3 / 3; }
     
     .Designed .card-text h3{
@@ -680,6 +680,8 @@ nav{
         background:url(.//images/bg-pattern-intro-right-desktop.svg) #383955 no-repeat;
         height: 15vw;
         padding: 1em;
+        min-height: 10rem;
+        max-height: 35rem;
     }
 
     .Infrastructure .card-img{
